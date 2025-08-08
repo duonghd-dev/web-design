@@ -37,8 +37,6 @@
         </form>
     </aside>
 
-    <!-- Product Grid -->
-
     <div class="product-grid">
         @forelse ($list_product as $product)
             <div class="product-card">
