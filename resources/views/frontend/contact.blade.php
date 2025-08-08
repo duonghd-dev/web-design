@@ -7,7 +7,6 @@
             We would love to hear from you. Please fill out the form below and we will respond as soon as possible.
         </p>
 
-        {{-- Contact Form --}}
         <form id="contactForm" method="POST" action="{{ route('contact.store') }}">
             @csrf
             <div class="form-group">
