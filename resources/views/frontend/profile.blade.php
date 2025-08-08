@@ -12,7 +12,6 @@
         @csrf
         @method('PUT')
 
-        <!-- Personal Information -->
         <div class="section-divider">
             <h2 class="section-heading">Personal Information</h2>
             <div class="form-group-container">
@@ -27,7 +26,6 @@
             </div>
         </div>
 
-        <!-- Password -->
         <div class="section-divider">
             <h2 class="section-heading">Change Password</h2>
             <div class="form-group-container">
@@ -46,7 +44,6 @@
             </div>
         </div>
 
-        <!-- Save Button -->
         <div class="button-container">
             <button type="submit" class="submit-button">
                 Save Changes
